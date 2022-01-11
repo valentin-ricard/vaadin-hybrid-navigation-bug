@@ -76,7 +76,7 @@ export class MainLayout extends Layout {
 
       {
         path: 'flow',
-        title: 'Flow',
+        title: 'Flow (See the expected layout)',
         icon: 'la la-couch',
       },
     ];

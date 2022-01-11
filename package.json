@@ -2,6 +2,7 @@
   "name": "no-name",
   "license": "UNLICENSED",
   "dependencies": {
+    "@adobe/lit-mobx": "2.0.0",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-list": "3.1.0",
     "@polymer/polymer": "3.2.0",
@@ -106,7 +107,9 @@
     "@vaadin/virtual-list": "22.0.2",
     "construct-style-sheets-polyfill": "3.0.4",
     "date-fns": "2.23.0",
-    "lit": "2.0.0"
+    "line-awesome": "1.3.0",
+    "lit": "2.0.0",
+    "mobx": "^6.3.5"
   },
   "devDependencies": {
     "@vaadin/application-theme-plugin": "./target/plugins/application-theme-plugin",
@@ -136,6 +139,7 @@
   },
   "vaadin": {
     "dependencies": {
+      "@adobe/lit-mobx": "2.0.0",
       "@polymer/iron-icon": "3.0.1",
       "@polymer/iron-list": "3.1.0",
       "@polymer/polymer": "3.2.0",
@@ -239,7 +243,9 @@
       "@vaadin/virtual-list": "22.0.2",
       "construct-style-sheets-polyfill": "3.0.4",
       "date-fns": "2.23.0",
-      "lit": "2.0.0"
+      "line-awesome": "1.3.0",
+      "lit": "2.0.0",
+      "mobx": "^6.3.5"
     },
     "devDependencies": {
       "chokidar": "^3.5.0",
@@ -263,6 +269,6 @@
       "workbox-precaching": "6.4.2",
       "workbox-webpack-plugin": "6.4.2"
     },
-    "hash": "29b36f00572bfcc32cec3c68d01f1a5bf6abbaa1edc883d357f06ff7208d7697"
+    "hash": "5c7b5204d673d4639848c49cd9af183e6e3a4ca348471e74fed69611976e36bc"
   }
 }

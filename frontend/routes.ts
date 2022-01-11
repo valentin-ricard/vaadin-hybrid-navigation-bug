@@ -29,6 +29,19 @@ export const views: ViewRoute[] = [
   },
 ];
 export const routes: ViewRoute[] = [
+
+  {
+    path: 'test',
+    component: 'test-layout',
+    action: async () => {
+      await import('./layouts/test_layout');
+    },
+    children: [
+      // Every server side route that starts with test is filled here
+      // At the top to avoid the catchall call
+      ...serverSideRoutes
+    ]
+  },
   {
     path: '',
     component: 'main-layout',
@@ -37,5 +50,5 @@ export const routes: ViewRoute[] = [
       // for server-side, the next magic line sends all unmatched routes:
       ...serverSideRoutes, // IMPORTANT: this must be the last entry in the array
     ],
-  },
+  }
 ];
